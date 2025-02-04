@@ -62,8 +62,7 @@ console.log("atv7")
 
 let numero2 = prompt("Escolha um número:")
 
-let resultado2 = numero % 2
-if (resultado2 == 0) {
+if (numero2 >= 0) {
     console.log("Número positivo")
 } else {
     console.log("Número negativo")
